@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #97bde6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background: rgb(243, 238, 242);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: rgb(239, 216, 240);
+}
+
+th, td {
+    border: 1px solid #e6d3df;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #c6d5e6;
+    color: rgb(13, 19, 17);
+}
+
+/* Button and Links */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #06080a;
+    border: 2px solid #bcd4db;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #c1d3e7;
+    color: rgb(236, 220, 235);
+}

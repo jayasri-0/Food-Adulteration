@@ -1,0 +1,94 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #5883c2; 
+}
+
+/* Form container */
+.form {
+    border: 1px solid #8c5dd6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    background: linear-gradient(to right, #e090e7, #90b6db); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    margin-bottom: 20px;
+    color: #2c3e50; 
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #5e55db;
+}
+
+/* Input fields */
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e4ac86; 
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #a5cbeb; 
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #657ce4;
+    border: none;
+    border-radius: 5px;
+    color: rgb(124, 226, 226);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #9c98db;
+}
+
+/* Forgot password link */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #58d0ee; 
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Links */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Adulteration Inquiry Submission</title>
+    <link rel="stylesheet" href="button.css">
+</head>
+
+<body>
+    <header>
+        <h1>Food Adulteration Inquiry Submission</h1>
+    </header>
+
+    <main>
+        <?php
+        if (isset($_GET['success']) && $_GET['success'] == 1) {
+            echo "<p>Thank you for reporting potential food adulteration!</p>";
+            echo "<p>Your inquiry has been submitted successfully.</p>";
+            echo "<p>We take your concerns seriously and will investigate promptly.</p>";
+        } else {
+            echo "<p>There was an issue submitting your inquiry. Please try again.</p>";
+        }
+        ?>
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="home.html"
+                style="color: #333; text-decoration: none; font-weight: bold; padding: 10px 20px; background-color: #f0f0f0; border-radius: 4px; transition: background-color 0.3s ease;">
+                Return To HomePage
+            </a>
+        </div>
+    </main>
+</body>
+
+</html>

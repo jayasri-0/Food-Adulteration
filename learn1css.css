@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    background-image: url(background.jpg);
+    /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2em 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.hero {
+    background: rgba(255, 255, 255, 0.8);
+
+    /* Semi-transparent background */
+    color: #333;
+    padding: 4em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+/*.hero .cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    margin-top: 1em;
+    background: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}*/
+
+.details,
+.benefits,
+.visuals,
+.cta {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    margin: 2em 0;
+    width: 80%;
+}
+
+.details .feature {
+    margin-top: 2em;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.benefits ul li {
+    margin: 1em 0;
+}
+
+/*.cta .cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #0e0000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background-color: #444;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+
+}*/
